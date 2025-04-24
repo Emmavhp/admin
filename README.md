@@ -1,11 +1,22 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Mundialito - Sistema de Gestión de Torneos</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     <style>
+
+/* Para móviles */
+@media (max-width: 767px) { ... }
+
+/* Para tablets */
+@media (min-width: 768px) and (max-width: 1023px) { ... }
+
+/* Para escritorio */
+@media (min-width: 1024px) { ... }
+
+
     .celda-editable {
         background-color: #f8f9fa;
         border: 1px solid #ddd;
